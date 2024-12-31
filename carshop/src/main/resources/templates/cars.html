@@ -1,0 +1,61 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="ru">
+<head>
+    <title>Список автомобилей дилера</title>
+    <meta charset="UTF-8">
+    <style>
+        h1 {
+            color: black;
+            text-align: center;
+        }
+        body {
+            background-color: #796DC5;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+            cursor: pointer;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tr:hover {
+            background-color: #ddd;
+        }
+    </style>
+</head>
+<body>
+<h1>Список автомобилей дилера</h1>
+<table>
+    <thead>
+    <tr>
+        <th>Фирма</th>
+        <th>Модель</th>
+        <th>Год выпуска</th>
+        <th>Мощность (л/с)</th>
+        <th>Цвет</th>
+        <th>Стоимость</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="car : ${cars}"> <!-- Изменил здесь на список автомобилей -->
+        <td th:text="${car.firm}"></td>
+        <td th:text="${car.model}"></td>
+        <td th:text="${car.year}"></td>
+        <td th:text="${car.power}"></td>
+        <td th:text="${car.color}"></td>
+        <td th:text="${car.price}"></td>
+    </tr>
+    <tr th:if="${#lists.isEmpty(cars)}"> <!-- Проверка, есть ли автомобили -->
+        <td colspan="6">Нет данных об автомобилях.</td>
+    </tr>
+    </tbody>
+</table>
+</body>
+</html>

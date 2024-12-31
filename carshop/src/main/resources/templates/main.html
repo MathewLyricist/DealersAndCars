@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" lang="ru">
+<head>
+  <title>Main site</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <style>
+    h1 {
+      color: black;
+    }
+    body {
+      background-color: #796DC5;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+      cursor: pointer;
+    }
+    th {
+      background-color: #f2f2f2;
+    }
+    tr:hover {
+      background-color: #ddd;
+    }
+  </style>
+</head>
+<body>
+<div>
+  <h1>Приветствую вас в компании по подбору автомобилей!</h1>
+  <h2>Ниже представлены дилеры автомобилей. Для просмотра и взаимодействия нажмите на дилера.</h2>
+</div>
+<table>
+  <thead>
+  <tr>
+    <th>Название</th>
+    <th>Город</th>
+    <th>Адрес</th>
+    <th>Район</th>
+    <th>Рейтинг</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr th:each="diler : ${dilers}" th:onclick="'window.location=\'/cars/' + ${diler.id} + '\''">
+    <td th:text="${diler.name}"></td>
+    <td th:text="${diler.city}"></td>
+    <td th:text="${diler.address}"></td>
+    <td th:text="${diler.area}"></td>
+    <td th:text="${diler.rating}"></td>
+  </tr>
+  </tbody>
+</table>
+</body>
+</html>
