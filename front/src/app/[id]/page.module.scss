@@ -1,0 +1,62 @@
+.container {
+	padding: 20px;
+	background-color: #f9f9f9;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.addButton {
+	margin-right: 30px;
+	margin-bottom: 20px;
+	margin-top: 50px;
+	padding: 10px 15px;
+	background-color: #000;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #777;
+	}
+}
+
+.table {
+	margin-top: 50px;
+	width: 100%;
+	border-collapse: collapse;
+
+	th {
+		background-color: #000000;
+		color: white;
+		padding: 10px;
+		text-align: left;
+	}
+
+	td {
+		padding: 10px;
+		border: 1px solid #ddd;
+		text-align: left;
+
+		&:nth-child(even) {
+			background-color: #f2f2f2;
+		}
+	}
+
+	tr:hover {
+		background-color: #f1f1f1;
+	}
+}
+
+.deleteButton {
+	padding: 5px 10px;
+	background-color: #000000;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+
+	&:hover {
+		background-color: #777777;
+	}
+}

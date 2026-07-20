@@ -1,0 +1,59 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[7].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[13].oneOf[7].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[13].oneOf[7].use[5]!./src/app/[id]/page.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+.page_container__7giYo {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.page_addButton__bcsjS {
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  padding: 10px 15px;
+  background-color: #000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.page_addButton__bcsjS:hover {
+  background-color: #777;
+}
+
+.page_table__NWJKO {
+  margin-top: 50px;
+  width: 100%;
+  border-collapse: collapse;
+}
+.page_table__NWJKO th {
+  background-color: #000000;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+.page_table__NWJKO td {
+  padding: 10px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+.page_table__NWJKO td:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.page_table__NWJKO tr:hover {
+  background-color: #f1f1f1;
+}
+
+.page_deleteButton__ewYqB {
+  padding: 5px 10px;
+  background-color: #000000;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.page_deleteButton__ewYqB:hover {
+  background-color: #777777;
+}
