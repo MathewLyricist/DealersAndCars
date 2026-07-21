@@ -1,5 +1,18 @@
 **Проект представляет собой REST API для управления дилерами и автомобилями. Разработан в рамках университетского курса по Java-разработке.**
 
+<p align="center">
+  <img src="Images/1.png" alt="Выбор автомобиля" width="90%">
+</p>
+<p align="center">
+  <img src="Images/2.png" alt="Выбор автомобиля" width="90%">
+</p>
+<p align="center">
+  <img src="Images/3.png" alt="Выбор автомобиля" width="90%">
+</p>
+<p align="center">
+  <img src="Images/4.png" alt="Выбор автомобиля" width="90%">
+</p>
+
 **Стек технологий**
 - Java 17, Spring Boot 3
 - Spring Data JPA (Hibernate)
