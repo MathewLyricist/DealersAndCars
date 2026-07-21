@@ -1,16 +1,20 @@
 **Проект представляет собой REST API для управления дилерами и автомобилями. Разработан в рамках университетского курса по Java-разработке.**
 
 <p align="center">
-  <img src="Images/1.png" alt="Выбор автомобиля" width="90%">
+  <img src="Images/1.png" width="90%">
 </p>
+
 <p align="center">
-  <img src="Images/2.png" alt="Выбор автомобиля" width="90%">
+  
+  <img src="Images/2.png" width="90%">
 </p>
+
 <p align="center">
-  <img src="Images/3.png" alt="Выбор автомобиля" width="90%">
+  <img src="Images/3.png" width="90%">
 </p>
+
 <p align="center">
-  <img src="Images/4.png" alt="Выбор автомобиля" width="90%">
+  <img src="Images/4.png" width="90%">
 </p>
 
 **Стек технологий**
