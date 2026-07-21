@@ -1,21 +1,12 @@
 **Проект представляет собой REST API для управления дилерами и автомобилями. Разработан в рамках университетского курса по Java-разработке.**
 
-<p align="center">
-  <img src="Images/1.png" width="90%">
-</p>
+![Image 1](Images/1.png)
 
-<p align="center">
-  
-  <img src="Images/2.png" width="90%">
-</p>
+![Image 2](Images/1.png)
 
-<p align="center">
-  <img src="Images/3.png" width="90%">
-</p>
+![Image 3](Images/3.png)
 
-<p align="center">
-  <img src="Images/4.png" width="90%">
-</p>
+![Image 4](Images/4.png)
 
 **Стек технологий**
 - Java 17, Spring Boot 3
